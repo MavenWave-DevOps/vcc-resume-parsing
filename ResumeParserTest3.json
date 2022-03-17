@@ -1,0 +1,75 @@
+{
+    "first_name": "Michael",
+    "last_name": "Jordon",
+    "phone_number": "888-867-5309",
+    "email": "michael.jordan@gmail.com",
+    "highest_education": "other",
+    "education": [
+        {
+            "institution": "Cal State Fullerton",
+            "degree": []
+        }
+    ],
+    "work_history": [
+        {
+            "company_name": "Crestron Electronics",
+            "job_state": "TX",
+            "job_position": "Senior Software Engineer",
+            "start_month": "08",
+            "start_year": "2020",
+            "end_month": "",
+            "end_year": "",
+            "job_description": "Developed device drivers for several Yamaha and Sony Audio/Video Receivers that provide support for the. RMC3 - 3-Series® and Room Media Controller, MC4‑Series Control System, and CP4-R 4-Series Control Processor for Crestron Home™ OS.\n"
+        },
+        {
+            "company_name": "TradeStation Technologies Inc.",
+            "job_state": "TX",
+            "job_position": "Senior Software Engineer/Architect",
+            "start_month": "",
+            "start_year": "2009",
+            "end_month": "",
+            "end_year": "2020",
+            "job_description": "Split apart functionality from legacy application that was directly accessing SQL Server and created a set of RESTful micro services to provide this data instead in preparation for migrating to a new DB technology.Worked on a .NET C# project that was moving our historical market data to Amazon S3 buckets in the cloud from internally managed historical SQL server instances.Modified the TCP/IP framing for a C++ server which was communicating with a set of C# clients over protocol buffer messaging to add in extra meta data to aid in tracing the messages through the system to get to the bottom of some difficult to find errors.  The changes were required in both the low-level C++ side as well as the C# side.Tasked with taking over a client facing Web Socket gateway that was a major source of pain for the company.  Quickly diagnosed numerous issues and rewrote major parts of it and within a few weeks had it working with all of the major issues resolved, with the max client connection supported going from 350 to 4,000.Tasked with converting a legacy set of applications written in C++ that managed FIX connections to all the major equities/options, and futures exchanges to facilitate all order executions to C# .NET 4.0.Wrote a FIX engine from scratch to replace using open-source Quick FIX which was too slow for our needs.Created the base TCP/IP socket management libraries that were used for all of the TCP/IP communications that the team used.  This library used the .NET async socket library for the base socket functionality.  The library functionality consisted of buffer management, low level parsing of the buffers to detect begin/end of various types of messages, and served as the base framework for all of the TCP/IP messaging used by the team.  The FIX engine mentioned above used this library exclusively for all TCP/IP message management.Created a framework that allowed for developers to quickly create new order execution applications with all the relevant customization points easily identified and in practice this framework proved to speed up creation of new order execution solutions by several hundreds of percentage points when compared to the legacy approach.\n"
+        },
+        {
+            "company_name": "The WizeTrade Group/LiquidTrader Technologies",
+            "job_state": "TX",
+            "job_position": "Development Manager/Architect",
+            "start_month": "",
+            "start_year": "2003",
+            "end_month": "",
+            "end_year": "2008",
+            "job_description": "Managed.NET architecture group charged with converting legacy VB client applications to .Net 3.5; served as principal developer for large portion of the architecture, design, implementation, and coding. Supervised seven-person team.Led development of highly successful C# stock scanning application (WizeFinder)Improved migration for customers transitioning from eSignal data feed by creating an interface that abstracted historical and real-time market information from multiple data vendors.Wrote the base socket framework in C++ for our order execution engine using WinSock libraries which was used for all of our TCP/IP communications within the order execution team.Increased operational efficiency by developing a data retrieval server for CommandTRADE, an application that pulls historical data from varied sources and judges which data set is the \"best\" for more than 8,000 symbols traded on the NYSE, AMEX and NASDAQ stock markets.\n"
+        },
+        {
+            "company_name": "The WizeTrade Group/LiquidTrader Technologies",
+            "job_state": "TX",
+            "job_position": "VP of Software Development",
+            "start_month": "",
+            "start_year": "2000",
+            "end_month": "",
+            "end_year": "2003",
+            "job_description": "Led 15-person team that produced a direct access trading solution within 15 months, including a UNIX-based order execution server using FIX to interface with exchanges, MS SQL Server-based administrator with risk management, and requisite middleware support components. Personally, developed the entire Windows client application, LiquidTrader™, using Visual C++/MFC; features included Level II/Board /Top Ten/ Time of Sale views, Scrolling Tickers, Candle Stick Charts, and Trade Manager (Blotter) for real-time position and buying power views.\tImproved ease of product installation by creating an InstallShield setup program. \n"
+        },
+        {
+            "company_name": "SeeBeyond Technology",
+            "job_state": "CA",
+            "job_position": "Senior Graphical User Interface Architect",
+            "start_month": "",
+            "start_year": "1999",
+            "end_month": "",
+            "end_year": "2000",
+            "job_description": "E-business integration software provider acquired by Sun MicrosystemsResponsible for redesigning user interfaces for highly complex B2B applications (all of company's key products); led 150-person development team in the effort to reshape the GUI design; served as project's principal software developer. Recruited, hired, and managed team of talented Windows GUI developers charged with transitioning from X-Windows/Java Swing GUI to a more robust Windows/MFC approach. Led initial design and implementation of custom controls needed to convey intricate B2B relationships and map proprietary messages to XML.\tDirector of Software Development & Research, Productive Access, Yorba Linda, CA, 1994 to 1999\tDeveloper of market survey research analysis software used for rapid tabulation of complex cross-tabulation queries. \tServed as Chief architect for the design of the MS-Windows version of mTAB; developed a 3-D user interface tab control, a drag-drop aware hierarchical tree custom control used for selecting survey studies and questions, and the centerpiece of the reporting portion, an Excel lookalike spread sheet control that ran as fast or faster in most operations. Supervised15-person team.\tKey contributor to new release of mTAB for Windows that increased sales by 400% in its first year; resulting product offered improved performance and included many features requested by customers.  \tImproved speed on 386-33 by 152% by optimizing the CPU intensive numbers-crunching phase of an mTAB query using hand-coded 386 assembler.  \n"
+        },
+        {
+            "company_name": "Lucid Corporation",
+            "job_state": "",
+            "job_position": "VP of Software Development",
+            "start_month": "",
+            "start_year": "1991",
+            "end_month": "",
+            "end_year": "1994",
+            "job_description": ""
+        }
+    ]
+}

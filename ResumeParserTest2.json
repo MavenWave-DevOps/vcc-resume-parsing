@@ -1,0 +1,108 @@
+{
+    "first_name": "Johnathan",
+    "last_name": "Paxton",
+    "phone_number": "816-867-5309",
+    "email": "jonathan.paxton@gmail.com",
+    "highest_education": "Master",
+    "education": [
+        {
+            "institution": "Indiana University, School of Informatics",
+            "degree": [
+                "Master of Science in Media Arts & Science",
+                "Bachelor of Science in Media Arts & Science"
+            ]
+        }
+    ],
+    "work_history": [
+        {
+            "company_name": "PICA",
+            "job_state": "TN",
+            "job_position": "Senior Software Engineer",
+            "start_month": "01",
+            "start_year": "2020",
+            "end_month": "",
+            "end_year": "",
+            "job_description": "Hired in as the first fully remote worker and acted as the pilot program for remote employees within the companyWorked as a team to develop and implement a plan to both hire and onboard future remote employeesOnboarded, trained, and mentored junior developersEngineer responsible for solely maintaining system functionality consisting of periods lasting three months on a regular scheduleFunctioned as a member of an Agile based team with stints utilizing Kanban and ScrumInstituted a department booked club promoting continued education and collaborative learningDesigned and built an application to pre-screen prospective clients thereby reducing company risk and increasing profit marginsMigrated company payment providers while maintaining existing payment provider’s functionalityCreated and participated in various team coding exercises designed to determine future technologies to utilize within the companyTechnologies/Products: Agile. Scrum, Kanban, Java 8, Groovy, JSTL Javascript, HTML, XML, SOAP, Maven, JPA, Hibernate, SQL, SQL Developer, Spring Framework, Junit, Intellij Idea, VS Code, Postman, Trello, Bitbucket, Simple Queue Service, MongoDB, Jenkins, Tomcat, Docker, Linux, Mac Os X, AWS, Datadog, Zoom, Microsoft Teams, Drovio, GitKraken, Sourcetree, Slack, Webex, Code With Me, Pair Programming, TDD\n"
+        },
+        {
+            "company_name": "Spring Venture Group",
+            "job_state": "MO",
+            "job_position": "Software Engineer",
+            "start_month": "04",
+            "start_year": "2017",
+            "end_month": "12",
+            "end_year": "2019",
+            "job_description": "Functioned as a member of an Agile based team with stints utilizing Kanban and ScrumEnvisioned and developed an application to monitor the status of a critical system service which queues data via SQS when an outage is detected and autonomously replays once the service has stabilized recording a history within DynamoDbWorked on department test bed for moving to Java 11Pioneered company’s usage of Java Lambdas utilizing Spring Serverless in AWS including creating lambdas to read/write from Redis/Elasticache, S3, SQS, and DynamoDBWorked with a team of six to develop an employee onboarding system which pulled employee data from s3, provisioned Gmail accounts, Five9 accounts, switched statuses from training to full-time, and emailing out resultsWorked as a team to develop core system functionality interfacing with other microservices via sqs and Salesforce PushTopicsDevOps Engineer responsible for solely maintaining system functionality during and after hours for periods lasting a week on a regular scheduleGathered requirements and developed the company’s internal do not call list then synced to Five9 remaining as the main point of information for anything related to the do not call listOrchestrated the conversion of one of the company’s main database schemas to facilitate the launch of an entire new suite of applicationsTechnologies/Products: Java 8, Maven, JPA, MySQL, Groovy, Spock, Spring Framework, Spring Serverless, Junit, Intellij Idea, DBeaver, Atom, Postman, Salesforce, Five9, AWS S3, AWS Lambda, AWS Simple Notification Service, DynamoDB, CodeCommit, CodePipeline, CloudFormation Template, Simple Queue Service, Redis, Elasticache, Jenkins, Splunk, Victor Ops, SnapLogic, Virtru, Docker, Liquibase, Mac Os X\n"
+        },
+        {
+            "company_name": "Sogeti",
+            "job_state": "MO",
+            "job_position": "Application Developer",
+            "start_month": "05",
+            "start_year": "2016",
+            "end_month": "03",
+            "end_year": "2017",
+            "job_description": "Maintained the unit’s SharePoint site, creating surveys and announcements for upcoming eventsAided in the development of Sogeti’s national level Agile Methodologies SharePoint siteCreated an internal feedback SharePoint site for unit level awards\n"
+        },
+        {
+            "company_name": "Transportation Services Client (Sogeti Engagement)",
+            "job_state": "MO",
+            "job_position": "SharePoint Developer",
+            "start_month": "05",
+            "start_year": "2016",
+            "end_month": "01",
+            "end_year": "2017",
+            "job_description": "Operated as part of a pair with the Business Analyst to establish departmental requirementsCreated new methods of conducting department data gathering thereby reducing man-hours and increasing accuracyWorked with organizational hierarchy to build department’s first team site-oriented SharePointCollaborated with individuals to migrate key company sites from SharePoint on Premises 2007 and 2010 to 2013Prototyped new ways of migrating paper processes to utilize Office 365Created training documentation and videos for the purpose of training non-technical staffTechnologies/Products: SharePoint 0365, SharePoint On-Premise 2007, SharePoint On-Premise 2010, SharePoint On-Premise 2013, SharePoint Designer 2013, Office 2013, Office 0365, Gimp, HTML5, CSS4, XML, JavaScript, JQuery\n"
+        },
+        {
+            "company_name": "Financial Services Client (Sogeti Engagement)",
+            "job_state": "ID",
+            "job_position": "Java Developer",
+            "start_month": "05",
+            "start_year": "2014",
+            "end_month": "05",
+            "end_year": "2016",
+            "job_description": "Created the XML generation provisioning code to be sent from the internal app to the third-party platform using XSLTBuilt over half of the application’s front-end using CSS, HTML, JavaScript, Data tables, jQuery, AJAX, JSONDeveloped the backend for pages personally created using J2EE, Spring MVC, JDBCSetup the application’s role-based authentication with Spring SecurityActed as the internal expert for Selerix platform within the projectWorked hand in hand with BA to develop three new insurance products which were successfully launched on the platform using jQueryHelped to develop a comprehensive automated suite of unit tests that covered 90% of the code utilizing Junit, Mockito, Selnium, JDBC, and Oracle 11gOnboarded and mentored a college intern who was assigned to the projectTechnologies/Products: Eclipse, Oracle SQL Developer, SQuirrel SQL, SoapUI, Java, Junit, Mockito, Selenium, JDBC, Spring Framework, Spring MVC, Spring Security, Selerix, XML, XSLT, Xalan, DataTables, HTML5, CSS, JSON, Apache Tiles, Jetty, JavaScript, JQuery, Confluence\n"
+        },
+        {
+            "company_name": "Sogeti",
+            "job_state": "ID",
+            "job_position": "Application Developer",
+            "start_month": "01",
+            "start_year": "2014",
+            "end_month": "05",
+            "end_year": "2014",
+            "job_description": ""
+        },
+        {
+            "company_name": "Automotive Auction Services Client (Sogeti Engagement)",
+            "job_state": "ID",
+            "job_position": "Technical Support",
+            "start_month": "01",
+            "start_year": "2014",
+            "end_month": "05",
+            "end_year": "2014",
+            "job_description": "Provided compatibility testing of existing hardware and software for moving from Windows XP to Windows 7Created training documentation for the migration of color scanners to the new OSWorked with client staff across the country to ensure proper operation of updated Ricoh devicesAssisted in the successful corporate acceptance processFinished the project on time and on budgetTechnologies/Products: Windows XP, Windows 7, Ricoh devices, SharePoint, Office 2011\n"
+        },
+        {
+            "company_name": "Retail/Ecommerce Client (Sogeti Engagement)",
+            "job_state": "ID",
+            "job_position": "Integration Tester",
+            "start_month": "07",
+            "start_year": "2013",
+            "end_month": "01",
+            "end_year": "2014",
+            "job_description": "Aided in identifying and creating test documentationCreated training documentation for both corporate and store personnelAssisted in the successful corporate acceptance processWorked with client staff in Denver to correct product issues prior to system launchLaunched the new systemTechnologies/Products: JIRA, Runit, Manhattan SCOPE, SharePoint, Office 2011\n"
+        },
+        {
+            "company_name": "Financial Services Client (Sogeti Engagement)",
+            "job_state": "ID",
+            "job_position": "Integration Tester",
+            "start_month": "06",
+            "start_year": "2013",
+            "end_month": "07",
+            "end_year": "2013",
+            "job_description": "Worked on a team to design and create a Java application to transfer documents to FilenetResearched IBM’s Java APIs on how to establish and transfer documents to FilenetTechnologies/Products: Java, IBP Connections, FileNet, Content Engine\n"
+        }
+    ]
+}

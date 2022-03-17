@@ -1,0 +1,77 @@
+{
+    "first_name": "Scottie",
+    "last_name": "Pippen",
+    "phone_number": "732-867-5309",
+    "email": "scottie.pippen@gmail.com",
+    "highest_education": "Bachelor",
+    "education": [
+        {
+            "institution": "Northern Illinois University",
+            "degree": [
+                "Bachelor of Science in Computer Science"
+            ]
+        }
+    ],
+    "work_history": [
+        {
+            "company_name": "Citi Bank",
+            "job_state": "TX",
+            "job_position": "Java Developer",
+            "start_month": "07",
+            "start_year": "2021",
+            "end_month": "01",
+            "end_year": "2022",
+            "job_description": "Acquired good knowledge in end-to-end implementation of backend services using Spring Boot and Micro Services.Used PostgreSQL database for application data storage and retrieval purposes. Used Google Cloud Platform – Big Query for data retrieval process.Used Spring Data JPA for database connectivity with PostgreSQL and service layer.Developed REST architecture-based web services to facilitate communication between client and servers. Used JAX-RS annotations to specify the type of data producing or consuming, validate the user requests, map user requests and to pass input parameters.Application is secured with Google Cloud Authentication mechanism with google credentials, added an additional security layer of JWT token when using Rest Services.Created Rest APIs to fetch data from Rest API’s, transform the data and publish the messages to respective Pub-Sub Topics.Integrated the application with spring framework for implementing Dependency injection and provide abstraction between presentation layer and persistence layer.Practiced AGILE (SCRUM) methodologies with sprint planning every two weeks and daily stand-up meetings to monitor the status. Used Jenkins with Google Cloud Platform, CI/CD pipeline mechanism for automatic code deployments using Google Cloud Builds to each environment.Involved in designed data migration strategy with the use of Restful API, Micro Services and Google Pub Sub – Spring Boot Integration Implementation.Have developed the micro services framework prototype with guidelines, the developers have followed as skeleton model and developed their interfaces on top of the baseline prototype.Supported production bugs with good analysis and implementing them effectively with no loss incurred to the customers. Acquired good knowledge on Maven and Gradle build mechanisms and for building the dependencies with application.Maintained the code in proper way and versioning using Git repository.Developed the unit test cases using JUNIT framework, mock testing using Mockito framework. Environment:  Eclipse IDE, STS, Big Query, Spring MVC, Spring, Spring Boot, Spring Data JPA, Rest API’s, PostgreSQL, Core Java 1.8, Git, JIRA."
+        },
+        {
+            "company_name": "Blue Cross Blue Shield",
+            "job_state": "FL",
+            "job_position": "Java Developer",
+            "start_month": "06",
+            "start_year": "2020",
+            "end_month": "07",
+            "end_year": "2021",
+            "job_description": "Responsibilities: Acquired good knowledge in end-to-end implementation of backend services using Spring Framework.Used IBM DB2 for application data storage and retrieval purposes. For downstream systems ease of data efficiency, less access time MongoDB is used. Created database routines to synchronize IBM DB2 and MongoDB.Integrated the application with spring framework for implementing Dependency injection and provide abstraction between presentation layer and persistence layer.Practiced AGILE (SCRUM) methodologies with sprint planning every two weeks and daily stand-up meetings to monitor the status. Used Spring Data JPA for database connectivity with IBM DB2 and service layer.Designed and developed the views, materialized views, functions, procedures, packages, and cursors for data validations, error tracing, IBM DB2 – MongoDB Synchronization.Developed REST architecture-based web services to facilitate communication between client and servers. Used Jenkins, CI/CD pipeline mechanism for automatic code deployments.Created Rest web services for all entity CRUD operations using Spring Data JPA and connecting to kafka queues.Involved in designed fully distributed system with the use of Restful API and Micro Services.Have developed the micro services framework prototype with guidelines, the developers have followed as skeleton model and developed their interfaces on top of the baseline prototype.Used JAX-RS annotations to specify the type of data producing or consuming, validate the user requests, map user requests and to pass input parameters.Supported production bugs with good analysis and implementing them effectively with no loss incurred to the customers. Acquired good knowledge on Maven and Gradle build mechanisms and for building the dependencies with application.Maintained the code in proper way and versioning using Git repository.Developed the unit test cases using JUNIT framework, mock testing using Mockito framework.Used Rally for logging use cases and maintain daily scrum status meetings.Environment:  Eclipse IDE, WebSphere 9.x, Spring MVC, Spring, Spring Boot, Spring Data JPA, Rest API’s, IBM DB2, Mongo DB, Core Java 1.8, Git, Rally, JIRA."
+        },
+        {
+            "company_name": "WIS International",
+            "job_state": "CA",
+            "job_position": "Java Developer",
+            "start_month": "04",
+            "start_year": "2019",
+            "end_month": "05",
+            "end_year": "2020",
+            "job_description": "Involved in requirements gathering, analysis, design, and development of application-based on Spring, Hibernate.Followed AGILE (SCRUM) methodologies with sprint planning every two weeks and daily stand-up meetings to monitor the status. Implemented the business logic using Spring implementation and achieved data persistence through Hibernate ORM framework.Integrated the application with Spring framework for implementing Dependency injection and provide abstraction between presentation layer and persistence layer.Used Hibernate Caching features to reduce database access and increase performance criteria to manipulate database.Used Hibernate annotation for Object Relational Mapping (ORM) with IBM-Db2 database.Designed and developed the views, materialized views, functions, procedures, packages, and cursors. Used Amazon Web Services (AWS) that offers reliable and inexpensive cloud computing and remote computing services.Created and configured EC2 instances on Amazon Web Services (AWS) for establishing clusters on cloud and created S3 buckets for our application.\t\t\tWorked on NoSQL Database DynamoDB for transferring some of the schema less data. Developed REST architecture-based web services to facilitate communication between client and servers. Involved in designed fully distributed system with the use of Restful API and Micro Services.Have developed the micro services framework prototype with guidelines, the developers have followed as skeleton model and developed their interfaces on top of the baseline prototype.Used JAX-RS annotations to specify the type of data producing or consuming, validate the user requests, map user requests and to pass input parameters. Used Rational Software Architecture for WebSphere Software Developer (RSA) which is based on Eclipse, to develop and debug application code and deployed application on IBM WebSphere 9.x server.  Pushing and pulling the code to/from the central Git Repository for code integration and version control.Provided Technical support for Production environments, resolving the issues, analyzing the defects using JIRA, providing and implementing the solutions for defects.Developed the unit test cases using JUNIT framework, mock testing using Mockito framework.Involved in wrap-up meetings, in estimating the timeframe for each story and helped in deploying the application on the server for each iteration of the agile software development.Created Maven build file to build the application and deployed on WebSphere Application Server. Environment: (RSA) Eclipse IDE, WebSphere 9.x, Spring MVC, Spring, IBM Db2, PL/SQL, Core Java 1.8, Git, JIRA, Mockito, Power Mockito, Unix, Linux, Agile, Hibernate, Rest API."
+        },
+        {
+            "company_name": "GovX",
+            "job_state": "CA",
+            "job_position": "Java Developer",
+            "start_month": "11",
+            "start_year": "2017",
+            "end_month": "04",
+            "end_year": "2019",
+            "job_description": "Developed using new features of Java 1.8 Annotations, Generics, Enhanced for loop and Enums. Used Spring and Hibernate for implementing IOC, AOP and ORM for back-end tiers.Used Spring Framework with Hibernate to map to Oracle 11g database and mapping using Hibernate Annotations. Implemented the Service, Controller and Security layers of Spring IOC and Spring Security.Design and development of business components using Spring Boot, Spring AOP, Spring AOC, Spring Annotations.Interacted with backend Oracle and wrote stored procedures and functions using PL/SQLDeveloped Jersey Restful Framework of spring for consuming and producing web services.  Implemented Elasticsearch as a distributed searching component with RESTful API.Involved in Performance tuning and optimization of SQL queries for data warehouse consisting of many tables with large amount of data. Consumed SOAP/ JAX-WS based web services using Spring framework and used SOAP UI for testing these services. Wrote HQL queries for hibernate statements and prepared statements to retrieve the data from database.Refactored proprietary application to facilitate remote access utilizing XML to import and export data to Oracle database.Successfully executed all the list cases and fixed any bugs/issues identified during the test cycles.Worked in the Agile/Scrum development environment with frequently changing requirements and actively participated in scrum meetings and code reviews. Used GIT as version control repository.Environment:  JDK 1.8, Core Java, Java Beans, Spring MVC, Spring Framework, Maven, JIRA, Spring-Boot,Tomcat Application Server, REST, Oracle 11g, Git, Log4j, Webservices, SOAP, Postman, IntelliJ, Junit."
+        },
+        {
+            "company_name": "24 Hour Fitness",
+            "job_state": "CA",
+            "job_position": "Java Developer",
+            "start_month": "10",
+            "start_year": "2015",
+            "end_month": "11",
+            "end_year": "2017",
+            "job_description": "Involved in SDLC Requirements gathering, Analysis, Design, Development, Testing production of application. Primarily focused on the Spring components such as Dispatcher Servlets, Controllers, Model and View Objects, View Resolver. Implemented the Project structure based on Spring MVC pattern using Spring Boot. Processing payment related messages and changing status of the payment.Developed REST services consumed by mobile application, the list of services is login, registration, transaction history, payment. Developed Spring Boot based REST API that exposes dynamic customer survey forms structures to UI clients. Used JAX-RS (REST) for producing web services and involved in writing programs to consume the web services.Designing new database tables using PostGreSQL Databases using PL/SQL.Wrote complex Database PL/SQL Statements and did PL/SQL tuning for the performance of the Database. Implemented Log4J for Logging Errors, debugging and tracking using loggers, appends components. Used Version Control Tool (Bitbucket) to perform Checking-out and Checking-in of codes from the repository. Jenkins was used for continuous integration.Environment: Spring framework, Eclipse, Docker, Java Beans, Spring MVC 2.0, JSP, Servlets, HTML, XML, Maven, PL/SQL, Log4j, SOUP and REST Webservices, BitBucket, Oracle 9i, PostGreSQL."
+        },
+        {
+            "company_name": "Kaiser Permanente",
+            "job_state": "CA",
+            "job_position": "Java Developer",
+            "start_month": "09",
+            "start_year": "2014",
+            "end_month": "09",
+            "end_year": "2015",
+            "job_description": "Involved in requirements gathering, analysis, design, and development of application-based on Spring Framework.Actively involved in full software development life cycle starting from requirements gathering and performing Object Oriented Analysis and Object-Oriented Design (OOD).Followed AGILE (SCRUM) methodologies with sprint planning every two weeks and daily stand-up meetings to monitor the status. Involved in wrap-up meetings, in estimating the timeframe for each story and helped in deploying the application on the server for each iteration of the agile software development.Integrated the application with Spring framework for implementing Dependency injection.Used IBM Db2 Server, Designed and developed the views, materialized views, functions, procedures, packages, and cursors. Developed REST architecture-based web services to facilitate communication between client and servers. Used Rational Software Architecture for WebSphere Software Developer (RSA) which is based on Eclipse, to develop and debug application code and deployed application on IBM WebSphere 7.x server.  Pushing and pulling the code to/from the central SVN Repository for code integration and version control.Recently Migrated the code from SVN to GitLab for better code management and version Control. Used Java Batch for generating the pdf reports for the auditing purpose. Used Birt tool to generate the pdf.Planned to upgrade the existing java 7 code to java 8.Planning to convert the existing code from IBM mainframes to Java 8.Provided Technical support for Production environments, resolving the issues, analyzing the defects using JIRA, providing, and implementing the solutions for defects.Created Maven build file to build the application and deployed on WebSphere Application Server.Environment: (RSA) Eclipse IDE, WebSphere 7.x, Spring MVC, Spring Framework, IBM Db2, Core Java 1.7, JIRA, Mockito, Power Mockito, Agile, Rest API. BIRT, SVN, GitLab."
+        }
+    ]
+}
