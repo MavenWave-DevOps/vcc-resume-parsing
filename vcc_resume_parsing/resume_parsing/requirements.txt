@@ -1,0 +1,17 @@
+git+https://github.com/deanmalmgren/textract.git@fd7a15fa102d240f0e60c6d35fd137426f8a2d0a # TODO: Next release of Textract
+gcsfs==2021.7.0
+fastapi==0.67.0
+gunicorn==20.1.0
+uvicorn[standard]==0.14.0
+google-api-python-client~=2.12.0
+google-cloud-storage~=1.40.0
+google-cloud-vision~=2.3.2
+pymupdf==1.18.15
+google-cloud-aiplatform==1.1.1
+tensorflow-cpu==2.4
+tensorflow_hub==0.12
+pandas==1.3
+rapidfuzz==1.4.1
+openpyxl==3.0.7
+python-jose[cryptography]==3.3
+google-cloud-secret-manager==2.7
