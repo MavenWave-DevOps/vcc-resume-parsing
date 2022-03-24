@@ -28,7 +28,7 @@ fs = GCSFileSystem(timeout=1)
 
 # bearer = HTTPBearer()
 # SECRET_KEY = os.getenv("JCW_APP")
-ALGORITHM = "HS256"
+# ALGORITHM = "HS256"
 
 STAGING_PATH = os.getenv("STAGING_PATH", "gs://wi_test_bucket/tests")
 ENDPOINT_NAME = os.getenv("ENDPOINT_NAME", "resume_parsing_qa_09_03_2021")

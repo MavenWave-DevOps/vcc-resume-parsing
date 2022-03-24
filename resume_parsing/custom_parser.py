@@ -786,10 +786,3 @@ def validate_emails(emails: List[str]) -> Optional[str]:
             break
 
     return match
-
-
-# repository shouild match vss-resume-parsing demo_app
-# - folder at bottom of sc
-# - push to GCR
-
-# Dep[loy backend but when it hits backend. Instead of hitting ner

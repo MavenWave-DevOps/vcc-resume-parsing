@@ -16,8 +16,9 @@ import textract
 from fastapi import FastAPI, HTTPException, status
 from google.cloud import vision  # noqa: F401
 
-# from resume_parsing import utils  # noqa: I202, F401
-import utils  # noqa: I202, F401
+from resume_parsing import utils  # noqa: I202, F401
+
+# import utils  # noqa: I202, F401
 
 app = FastAPI()
 logger = logging.getLogger()
