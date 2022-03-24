@@ -3,12 +3,15 @@ import base64
 import json
 import logging
 import xml.dom.minidom
+import os
 
 import requests
 import streamlit as st
 
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
+
+IP_ADDRESS = os.getenv("IP_ADDRESS", "0.0.0.0")
 
 
 def run(args):
@@ -32,9 +35,9 @@ def run(args):
         with file as f:
             b64 = base64.b64encode(f.read()).decode("utf-8")
 
-        logger.info(f"Hitting endpoint https://{args.ip}:8000/api/resumes/")
+        logger.info(f"Hitting endpoint https://{IP_ADDRESS}:8000/api/resumes/")
         response = requests.post(
-            f"http://{args.ip}:8000/api/resumes/",
+            f"http://{IP_ADDRESS}:8000/api/resumes/",
             data=json.dumps({"file": b64, "fileExtension": extension}),
         )
         if response.status_code == 200:
@@ -55,6 +58,5 @@ def run(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--env", default="dev")
-    parser.add_argument("--ip")
     args, _ = parser.parse_known_args()
     run(args)
