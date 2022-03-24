@@ -28,23 +28,13 @@ def run(args):
         }
         st.write(file_details)
         extension = "." + file.name.split(".")[-1]
-        logger.info(f"### Extension: {extension}")
-        logger.info(f"### file info: {file}")
 
-        # b64 = base64.b64encode(file.read()).decode("utf-8")
         with file as f:
             b64 = base64.b64encode(f.read()).decode("utf-8")
-            # logger.info(f"### file opened: {f.read()}")
 
-        logger.info(
-            f"Hitting endpoint https://{args.env}.vcc.resumeparsingdemo.com/api/resumes/"
-        )
-        # response = requests.post(
-        #     f"https://{args.env}.vcc.jobcenterofwisconsin.com/api/resumes/",
-        #     data=json.dumps({"file": b64, "fileExtension": extension}),
-        # )
+        logger.info(f"Hitting endpoint https://{args.ip}:8000/api/resumes/")
         response = requests.post(
-            "http://0.0.0.0:8000/api/resumes/",
+            f"http://{args.ip}:8000/api/resumes/",
             data=json.dumps({"file": b64, "fileExtension": extension}),
         )
         if response.status_code == 200:
@@ -65,5 +55,6 @@ def run(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--env", default="dev")
+    parser.add_argument("--ip")
     args, _ = parser.parse_known_args()
     run(args)
