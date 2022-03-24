@@ -11,7 +11,7 @@ import streamlit as st
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
-IP_ADDRESS = os.getenv("IP_ADDRESS", "0.0.0.0")
+IP_ADDRESS = os.getenv("IP_ADDRESS", "127.0.0.1")
 
 
 def run(args):
