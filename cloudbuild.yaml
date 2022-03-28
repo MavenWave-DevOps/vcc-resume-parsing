@@ -1,0 +1,12 @@
+steps:
+- name: gcr.io/kaniko-project/executor:debug
+  args: ["--dockerfile=Dockerfile",
+          #This defines an epemeral working directory to the root of the container upon build
+        #  "--context=dir://vcc-scheduling/",
+         #This defines the GCR image folder for the main branch
+         "--destination=us.gcr.io/vcc-shared-svcs-gcr-95ab/vcc-resume-parsing:$COMMIT_SHA",
+          #This defines the GCR image folder for realese bracnches
+         "--destination=us.gcr.io/vcc-shared-svcs-gcr-95ab/vcc-resume-parsing:$TAG_NAME"]
+      
+options:
+  logging: CLOUD_LOGGING_ONLY
