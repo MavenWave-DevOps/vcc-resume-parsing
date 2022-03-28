@@ -1,13 +1,13 @@
 FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
 
 ENV PORT 8000
-ENV STAGING_PATH gs://wi-vcc-dev-ml-o-net/db_25_0_excel
-ENV TFHUB_CACHE_DIR /root/.cache/tfhub_modules
-ENV ENDPOINT_NAME resume_parsing_qa_09_03_2021
+# ENV STAGING_PATH gs://wi-vcc-dev-ml-o-net/db_25_0_excel
+# ENV TFHUB_CACHE_DIR /root/.cache/tfhub_modules
+# ENV ENDPOINT_NAME resume_parsing_qa_09_03_2021
 ENV PROJECT_ID wi-vcc-dev-ml-254a
 ENV LOCATION us-central1
 ENV MAX_WORKERS 1
-ENV JCW_APP SecretKey-5E753756-0676-4335-955D-9CA8EBFF89A2-4VCC
+# ENV JCW_APP SecretKey-5E753756-0676-4335-955D-9CA8EBFF89A2-4VCC
 
 EXPOSE 8000
 
